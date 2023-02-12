@@ -1,0 +1,19 @@
+---
+title: "my_blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+format : 
+  html : 
+    theme: united
+    toc: true
+    toc-location : left
+    toc-title : Table des matières
+editor : visual
+---
