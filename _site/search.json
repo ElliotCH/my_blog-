@@ -2,9 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Sur ce blog …",
     "section": "",
-    "text": "About this blog"
+    "text": "Dans le cadre du cours de R avancé, nous devions créer un blog à partir d’un quarto, tout en réalisant un package."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -19,5 +19,26 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my_blog",
+    "section": "",
+    "text": "Post\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 12, 2023\n\n\nElliot CHAIGNE\n\n\n\n\n\n\n  \n\n\n\n\nBienvenue sur mon blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 2, 2022\n\n\nElliot CHAIGNE\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#intérêt",
+    "href": "about.html#intérêt",
+    "title": "Sur ce blog …",
+    "section": "Intérêt",
+    "text": "Intérêt\nEffectivement, ce blog a pour but de réaliser un site en créant un package qui calcule l’air d’un traingle à partir de la longueur de ses 3 côtés."
+  },
+  {
+    "objectID": "about.html#conclusion",
+    "href": "about.html#conclusion",
+    "title": "Sur ce blog …",
+    "section": "Conclusion",
+    "text": "Conclusion\nEn somme, ce travail a été très nécessaire pour ma part. Malgré le fait que je n’ai pas réussi à réaliser chaque question, le travail reste intéressant, apprendre à faire un blog à partir de R quarto me semble aussi très pertinent pour ma carrière professionnelle."
   }
 ]

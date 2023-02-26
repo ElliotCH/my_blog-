@@ -1,13 +1,90 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Post"
+author: "Elliot CHAIGNE"
 date: "2023-02-12"
 categories: [news, code, analysis]
-image: "image.jpg"
 ---
 
 This is a post with executable code.
 
 ```{r}
-1 + 1
+# Pour vérifier que le renv est actif 
+renv::status()
+# Chargement des libraries :
+library(targets)
+library(quarto)
+```
+
+\## Librairie heron
+
+Le package heron permet de calculer l'air d'un triangle à partir de la longueur des côtés, nous avons deux fonctions différentes heron qui calcule l'air et demie_perimetre qui calcule le demie perimètre du traingle afin d'avoir l'air du triangle.
+
+Voici comment l'installer depuis GitHub en utilisant le package \`remotes\` :
+
+```{r}
+# include : false 
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+
+# Installer le package heron depuis GitHub
+remotes::install_github("ElliotCH/heron")
+```
+
+\## Triangle de Sierpiński
+
+Le triangle de Sierpinski est une fractale plane nommée d'après le mathématicien polonais Wacław Sierpiński.
+
+Cette structure fractale est construite à partir d'un triangle équilatéral, en répétant un processus de subdivision selon un schéma précis
+
+Le processus peut-être répété de manière infinie pour produire une figure géométrique complexe à partir de formes simples.
+
+\### Itération numéro 1
+
+```{r}
+#| echo: false
+library(targets)
+tar_read(plot1)
+``
+```
+
+```{r}
+#| echo: false
+tar_read(heron1)
+```
+
+### ###Itération numéro 2
+
+```{r}
+#| echo: false
+tar_read(plot2)
+```
+
+```{r}
+#| echo: false
+tar_read(heron2)
+```
+
+###Itération numéro 3
+
+```{r}
+#| echo: false
+tar_read(plot3)
+```
+
+```{r}
+#| echo: false
+tar_read(heron3)
+```
+
+###Itération numéro 4
+
+```{r}
+#| echo: false
+tar_read(plot3)
+```
+
+```{r}
+#| echo: false
+tar_read(heron4)
 ```
