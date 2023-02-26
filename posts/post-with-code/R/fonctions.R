@@ -88,3 +88,5 @@ plot <- function(list_triangle) {
 }
 
 
+
+

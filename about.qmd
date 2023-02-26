@@ -17,10 +17,10 @@ font-family: "Arial"
 
 Dans le cadre du cours de R avancé, nous devions créer un blog à partir d'un quarto, tout en réalisant un package.
 
-## Intérêt 
+## Intérêt
 
 Effectivement, ce blog a pour but de réaliser un site en créant un package qui calcule l'air d'un traingle à partir de la longueur de ses 3 côtés.
 
-## Conclusion 
+## Conclusion
 
 En somme, ce travail a été très nécessaire pour ma part. Malgré le fait que je n'ai pas réussi à réaliser chaque question, le travail reste intéressant, apprendre à faire un blog à partir de R quarto me semble aussi très pertinent pour ma carrière professionnelle.
